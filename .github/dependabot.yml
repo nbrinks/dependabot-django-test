@@ -17,10 +17,6 @@ updates:
       prefix: "deps(pip)"
       include: "scope"
     groups:
-      # Security updates - left separate to get focused PRs for each advisory
-      security:
-        applies-to: security-updates
-      # Combine routine non-major prod dependency bumps
       prod-minor-patch:
         applies-to: version-updates
         update-types:
